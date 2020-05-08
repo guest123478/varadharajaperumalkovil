@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+<style> 
+#example1 {
+  background: url(fg.jpg) right bottom no-repeat, url(fg.jpg) left top repeat;
+  padding: 15px;
+}
+</style>
+<style>
+html { 
+  background-color: "; 
+  background-size: cover;
+}
+
+body { 
+  color: white; 
+}
+</style>
+<title>CSS Website Layout</title>
+<style> 
+#example1 {
+  background-image: url(), url(.jpg);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 32px;
+}
+</style>
+</head>
+<body>
+<style>
+h1 {
+  color: gold;
+  font-family: Lucida Console;
+  font-size: 300%;
+text-align: center;
+text-shadow: 2px 2px 4px #000000;
+}
+p  {
+  color: white;
+  font-family: courier;
+  font-size: 160%;
+text-align: center;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+</style>
+</head>
+<body>
+
+
+
+
+<div id="example1">
+<style> 
+
+ 
+  width: 400px;
+  height: 100px;
+  
+}
+</style>
+</head>
+<body>
+
+
+
+
+<div id="myDIV">
+<p>Nellai</p>
+</div>
+
+
+  <h1>VARADHARAJA PERUMAL KOVIL</h1>
+   <p>Tirunelveli-627001</p>
+  
+</div>
+<style>
+#example1 {
+  border: 10px ridge gold;
+  padding: 35px;
+  background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+body{
+  border: 10px dotted gold;
+  padding: 35px;
+  background: sandal;
+  background-clip: padding-box;
+}
+#example3{
+  border: 10px dotted black;
+  padding: 35px;
+  background: yellow;
+  background-clip: content-box;
+}
+</style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: #156;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#">HOME</a>
+  <a href="#">GALLERY</a>
+<a href="#">BRAMHOSTAVAM</a>
+<a href="#">THER THIRUNAL</a>
+<a href="#">SAMPROKSHANAM 1997</a>
+<a href="#">MAHAPUSHKARAM 2018</a>
+<a href="#">SAMPROKSHANAM 2013</a>
+<a href="#">CONTACT US </a>
+  <div class="dropdown">
+    <button class="dropbtn">More 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+</div>
+
+</style>
+</style>
+<head>
+<title>Title of the document</title>
+    <style>
+    #blink{
+      font-size: 30px;
+      font-weight: bold;
+      font-family: sans-serif;
+      color: #1c87c9;
+      transition:0.2s;
+    }
+   </style>
+  </head>
+  <body>
+    <a href="gallery.html"> <p id="blink">Gallery</p></a>
+    <script type="text/javascript">
+      var blink = document.getElementById('blink');
+      setInterval(function() {
+         blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+      }, 1000); 
+    </script>
+  </body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 4px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+   <a href="gallery.html"><h1>Live Dharshan</h1></a>
+</div>
+
+<div class="row">
+  <div class="col-3 menu">
+    <ul>
+      <li>The Flight</li>
+      <li>The City</li>
+      <li>The Island</li>
+      <li>The Food</li>
+    </ul>
+  </div>
+
+  <div class="col-9">
+    <h1>The City</h1>
+    <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+    <p>Resize the browser window to see how the content respond to the resizing.</p>
+  </div>
+</div>
+
+<style>
+html { 
+  background-color: green; 
+  background-size: cover;
+}
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="barrensavannah.css" />
+<title>Barren Savannah by Bryant Smith</title>
+</head>
+
+<body>
+    <div id="page">
+        <div class="topNaviagationLink"><a href="index.html">Home</a></div>
+        <div class="topNaviagationLink"><a href="index.html">About</a></div>
+        <div class="topNaviagationLink"><a href="index.html">Portfolio</a></div>
+        <div class="topNaviagationLink"><a href="index.html">Services</a></div>
+	    <div class="topNaviagationLink"><a href="index.html">Contact</a></div>
+	</div>
+    <div id="mainPicture">
+    	<div class="picture">
+        	<div id="headerTitle">Barren Savannah</div>
+            <div id="headerSubtext">An XHTML 1.0 Strict Template by Bryant Smith</div>
+        </div>
+    </div>
+        <div class="contentBox">
+    	<div class="innerBox">
+        	<h1>The Title of an Article</h1>
+          <div class="contentText">
+            <p>You may use this template on any site, anywhere, for free just please leave the link back to me in the footer.   This template validates XHTML Strict 1.0, CSS Validates as well; enjoy :) <a href="#">This is what a link looks like.</a></p>
+            <br />
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer mi. Vivamus sit amet neque vitae sapien bibendum sodales. Curabitur elementum. Duis imperdiet. Donec eleifend porttitor sapien. Praesent leo. Quisque auctor velit sed tellus. Suspendisse potenti. Aenean laoreet imperdiet nunc. Donec commodo suscipit dolor. Aenean nibh. Sed id odio. Aliquam lobortis risus ut felis. Sed vehicula pellentesque quam.</p><br />
+
+                <blockquote><p>This is a block quote, use it to include quotes from yourself or others.  All you have to do to include this element is wrap some text around blockquote tags</p></blockquote>
+                </div>
+
+        
+        <h1>Titles are H1 Tags</h1>
+            <div class="contentText"><p> Since the titles are H1 tags, try to include your keywords in them as search engines will look at them as being important content.</p><br />
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer mi. Vivamus sit amet neque vitae sapien bibendum sodales. Curabitur elementum. Duis imperdiet. Donec eleifend porttitor sapien. Praesent leo. Quisque auctor velit sed tellus. Suspendisse potenti. Aenean laoreet imperdiet nunc. Donec commodo suscipit dolor. Aenean nibh. Sed id odio. Aliquam lobortis risus ut felis. Sed vehicula pellentesque quam.</p><br />
+        
+          <p>Vestibulum augue quam, interdum id, congue semper, convallis non, velit. Quisque augue tortor, tristique ac, scelerisque eget, aliquam id, sem. Aenean lorem. Fusce velit nibh, dapibus quis, laoreet nec, porta a, dui. Nullam ac urna. Proin eget elit. Nunc scelerisque venenatis urna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce congue, turpis ut commodo mattis, pede erat fringilla tellus, pulvinar suscipit odio lorem sed pede.</p></div>
+        
+        
+        <h1>Yet Another One!</h1>
+          <div class="contentText"><p>You may use this template on any site, anywhere, for free just please leave the link back to me in the footer.   This template validates XHTML Strict 1.0, CSS Validates as well; enjoy :) </p><br />
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Integer mi. Vivamus sit amet neque vitae sapien bibendum sodales. Curabitur elementum. Duis imperdiet. Donec eleifend porttitor sapien. Praesent leo. Quisque auctor velit sed tellus. Suspendisse potenti. Aenean laoreet imperdiet nunc. Donec commodo suscipit dolor. Aenean nibh. Sed id odio. Aliquam lobortis risus ut felis. Sed vehicula pellentesque quam.</p><br />
+          <p>Vestibulum augue quam, interdum id, congue semper, convallis non, velit. Quisque augue tortor, tristique ac, scelerisque eget, aliquam id, sem. Aenean lorem. Fusce velit nibh, dapibus quis, laoreet nec, porta a, dui. Nullam ac urna. Proin eget elit. Nunc scelerisque venenatis urna. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce congue, turpis ut commodo mattis, pede erat fringilla tellus, pulvinar suscipit odio lorem sed pede.</p></div>
+          
+          
+          <!-- Please leave this in place after all of your content - thanks :) -->
+<div id="footer"><a href="http://www.aszx.net">web development</a> by <a href="http://www.bryantsmith.com">bryant smith</a></div>
+<!-- Please leave this in place after all of your content - thanks :) -->
+        
+        
+        
+
+        
+        </div>
+
+
+
+
+
+
+    </div>
+        
+        
+
+<!-- Footer -->
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Copyrights@2020<a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green"></a></p>
+</footer>
+
+
+</body>
+</html>
